@@ -1,0 +1,7 @@
+pod "PHYOAuth2SessionManager", :path => "../"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
