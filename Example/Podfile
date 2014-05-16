@@ -1,7 +1,6 @@
-pod "PHYOAuth2SessionManager", :path => "../"
-
-target "Demo" do
+target "PHYOAuth2SessionManager Example" do
+    pod "PHYOAuth2SessionManager", :path => "../"
 end
 
-target "DemoTests" do
+target "PHYOAuth2SessionManager ExampleTests" do
 end

@@ -1,0 +1,5 @@
+#include "Pods-PHYOAuth2SessionManager.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/PHYOAuth2SessionManager" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/PHYOAuth2SessionManager"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}
