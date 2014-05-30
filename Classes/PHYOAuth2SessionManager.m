@@ -7,6 +7,9 @@
 //
 
 #import "PHYOAuth2SessionManager.h"
+#import <CocoaLumberjack/DDLog.h>
+
+static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
 NSString * const kPHYOAuthCodeGrantType                 = @"authorization_code";
 NSString * const kPHYOAuthClientCredentialsGrantType    = @"client_credentials";

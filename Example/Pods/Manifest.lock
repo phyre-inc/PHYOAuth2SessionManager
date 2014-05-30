@@ -18,8 +18,14 @@ PODS:
   - AFNetworking/UIKit (2.2.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - CocoaLumberjack (1.9.0):
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (1.9.0)
+  - CocoaLumberjack/Extensions (1.9.0):
+    - CocoaLumberjack/Core
   - PHYOAuth2SessionManager (0.1.0):
     - AFNetworking
+    - CocoaLumberjack
 
 DEPENDENCIES:
   - PHYOAuth2SessionManager (from `../`)
@@ -30,6 +36,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: ab63e259fe91eef4519b371ef0a4955af0e73e64
-  PHYOAuth2SessionManager: 82dcc6f3293c060ca0ff8cb17293dfa5f1f5a22f
+  CocoaLumberjack: 5766cdd1d0a24bcf15a133c6023747346bf786dd
+  PHYOAuth2SessionManager: a6b49487119a42befb48b2cd8a138ed76eab49ac
 
 COCOAPODS: 0.33.1
