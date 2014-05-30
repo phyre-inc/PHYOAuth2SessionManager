@@ -1,13 +1,6 @@
 # PHYOAuth2SessionManager
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/PHYOAuth2SessionManager/badge.png)](http://cocoadocs.org/docsets/PHYOAuth2SessionManager)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/PHYOAuth2SessionManager/badge.png)](http://cocoadocs.org/docsets/PHYOAuth2SessionManager)
-
-## Usage
-
-To run the example project; clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+An [AFHTTPSessionManager](http://afnetworking.com) subclass for authenticating via OAuth 2.0. Adapted from [AFOauth2Client](https://github.com/AFNetworking/AFOAuth2Client).
 
 ## Installation
 
@@ -18,9 +11,8 @@ it simply add the following line to your Podfile:
 
 ## Author
 
-Matt Ricketson, mricketson@mac.com
+Matt Ricketson, matt@phyreup.com
 
 ## License
 
 PHYOAuth2SessionManager is available under the MIT license. See the LICENSE file for more info.
-
