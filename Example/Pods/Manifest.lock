@@ -29,7 +29,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AFNetworking: 01aa7c3aa9a200b94943e54072a4373f14b3d219
-  PHYOAuth2SessionManager: 831ee3db60c61c955da71d984fa27e7f35a67254
+  AFNetworking: ab63e259fe91eef4519b371ef0a4955af0e73e64
+  PHYOAuth2SessionManager: 82dcc6f3293c060ca0ff8cb17293dfa5f1f5a22f
 
-COCOAPODS: 0.32.1
+COCOAPODS: 0.33.1

@@ -10,37 +10,35 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>735F7E00B0304CFA9F54D28F</key>
+		<key>034342B9E09647C8A08A8867</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
 			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-PHYOAuth2SessionManager.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>B59FAEEE03D349A0ADBC469C</key>
+		<key>4566A358118A4A36AFC90EB8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-PHYOAuth2SessionManager.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods-PHYOAuth2SessionManager.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A50AB75B13EC4D37872F6C24</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
@@ -59,27 +57,34 @@ fi
 			<key>shellPath</key>
 			<string>/bin/sh</string>
 			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-PHYOAuth2SessionManager Example-resources.sh"
+			<string>"${SRCROOT}/Pods/Pods-PHYOAuth2SessionManager-resources.sh"
 </string>
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
-		<key>C9046E141926B7EB0038E78D</key>
+		<key>B6AE5ECEA45F4FA4B750C3C5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>034342B9E09647C8A08A8867</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C9DA90CA1938E98C00C23713</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>C9046E261926B7EB0038E78D</string>
-				<string>C9046E451926B7EB0038E78D</string>
-				<string>C9046E1F1926B7EB0038E78D</string>
-				<string>C9046E1E1926B7EB0038E78D</string>
-				<string>F1E98326C46C493CA4B7794C</string>
+				<string>C9DA90DC1938E98C00C23713</string>
+				<string>C9DA90FB1938E98C00C23713</string>
+				<string>C9DA90D51938E98C00C23713</string>
+				<string>C9DA90D41938E98C00C23713</string>
+				<string>4566A358118A4A36AFC90EB8</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E151926B7EB0038E78D</key>
+		<key>C9DA90CB1938E98C00C23713</key>
 		<dict>
 			<key>attributes</key>
 			<dict>
@@ -91,15 +96,15 @@ fi
 				<string>Phyre Inc.</string>
 				<key>TargetAttributes</key>
 				<dict>
-					<key>C9046E3D1926B7EB0038E78D</key>
+					<key>C9DA90F31938E98C00C23713</key>
 					<dict>
 						<key>TestTargetID</key>
-						<string>C9046E1C1926B7EB0038E78D</string>
+						<string>C9DA90D21938E98C00C23713</string>
 					</dict>
 				</dict>
 			</dict>
 			<key>buildConfigurationList</key>
-			<string>C9046E181926B7EB0038E78D</string>
+			<string>C9DA90CE1938E98C00C23713</string>
 			<key>compatibilityVersion</key>
 			<string>Xcode 3.2</string>
 			<key>developmentRegion</key>
@@ -114,9 +119,9 @@ fi
 				<string>Base</string>
 			</array>
 			<key>mainGroup</key>
-			<string>C9046E141926B7EB0038E78D</string>
+			<string>C9DA90CA1938E98C00C23713</string>
 			<key>productRefGroup</key>
-			<string>C9046E1E1926B7EB0038E78D</string>
+			<string>C9DA90D41938E98C00C23713</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -125,16 +130,16 @@ fi
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>C9046E1C1926B7EB0038E78D</string>
-				<string>C9046E3D1926B7EB0038E78D</string>
+				<string>C9DA90D21938E98C00C23713</string>
+				<string>C9DA90F31938E98C00C23713</string>
 			</array>
 		</dict>
-		<key>C9046E181926B7EB0038E78D</key>
+		<key>C9DA90CE1938E98C00C23713</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>C9046E4D1926B7EB0038E78D</string>
-				<string>C9046E4E1926B7EB0038E78D</string>
+				<string>C9DA91031938E98C00C23713</string>
+				<string>C9DA91041938E98C00C23713</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -143,63 +148,63 @@ fi
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>C9046E191926B7EB0038E78D</key>
+		<key>C9DA90CF1938E98C00C23713</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>C9046E311926B7EB0038E78D</string>
-				<string>C9046E371926B7EB0038E78D</string>
-				<string>C9046E2D1926B7EB0038E78D</string>
+				<string>C9DA90E71938E98C00C23713</string>
+				<string>C9DA90ED1938E98C00C23713</string>
+				<string>C9DA90E31938E98C00C23713</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>C9046E1A1926B7EB0038E78D</key>
+		<key>C9DA90D01938E98C00C23713</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>C9046E231926B7EB0038E78D</string>
-				<string>C9046E251926B7EB0038E78D</string>
-				<string>C9046E211926B7EB0038E78D</string>
-				<string>D1027C6322F644C38B4373E6</string>
+				<string>C9DA90D91938E98C00C23713</string>
+				<string>C9DA90DB1938E98C00C23713</string>
+				<string>C9DA90D71938E98C00C23713</string>
+				<string>B6AE5ECEA45F4FA4B750C3C5</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>C9046E1B1926B7EB0038E78D</key>
+		<key>C9DA90D11938E98C00C23713</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>C9046E391926B7EB0038E78D</string>
-				<string>C9046E2B1926B7EB0038E78D</string>
-				<string>C9046E341926B7EB0038E78D</string>
+				<string>C9DA90EF1938E98C00C23713</string>
+				<string>C9DA90E11938E98C00C23713</string>
+				<string>C9DA90EA1938E98C00C23713</string>
 			</array>
 			<key>isa</key>
 			<string>PBXResourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>C9046E1C1926B7EB0038E78D</key>
+		<key>C9DA90D21938E98C00C23713</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>C9046E4F1926B7EB0038E78D</string>
+			<string>C9DA91051938E98C00C23713</string>
 			<key>buildPhases</key>
 			<array>
-				<string>735F7E00B0304CFA9F54D28F</string>
-				<string>C9046E191926B7EB0038E78D</string>
-				<string>C9046E1A1926B7EB0038E78D</string>
-				<string>C9046E1B1926B7EB0038E78D</string>
-				<string>B59FAEEE03D349A0ADBC469C</string>
+				<string>F672BFFFAB15478B8863B1DA</string>
+				<string>C9DA90CF1938E98C00C23713</string>
+				<string>C9DA90D01938E98C00C23713</string>
+				<string>C9DA90D11938E98C00C23713</string>
+				<string>A50AB75B13EC4D37872F6C24</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -208,15 +213,15 @@ fi
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>PHYOAuth2SessionManager Example</string>
+			<string>PHYOAuth2SessionManager</string>
 			<key>productName</key>
-			<string>PHYOAuth2SessionManager Example</string>
+			<string>PHYOAuth2SessionManager</string>
 			<key>productReference</key>
-			<string>C9046E1D1926B7EB0038E78D</string>
+			<string>C9DA90D31938E98C00C23713</string>
 			<key>productType</key>
 			<string>com.apple.product-type.application</string>
 		</dict>
-		<key>C9046E1D1926B7EB0038E78D</key>
+		<key>C9DA90D31938E98C00C23713</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>wrapper.application</string>
@@ -225,16 +230,16 @@ fi
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>path</key>
-			<string>PHYOAuth2SessionManager Example.app</string>
+			<string>PHYOAuth2SessionManager.app</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>C9046E1E1926B7EB0038E78D</key>
+		<key>C9DA90D41938E98C00C23713</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>C9046E1D1926B7EB0038E78D</string>
-				<string>C9046E3E1926B7EB0038E78D</string>
+				<string>C9DA90D31938E98C00C23713</string>
+				<string>C9DA90F41938E98C00C23713</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -243,15 +248,15 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E1F1926B7EB0038E78D</key>
+		<key>C9DA90D51938E98C00C23713</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>C9046E201926B7EB0038E78D</string>
-				<string>C9046E221926B7EB0038E78D</string>
-				<string>C9046E241926B7EB0038E78D</string>
-				<string>C9046E3F1926B7EB0038E78D</string>
-				<string>ECC2A73B4CB44A919680B246</string>
+				<string>C9DA90D61938E98C00C23713</string>
+				<string>C9DA90D81938E98C00C23713</string>
+				<string>C9DA90DA1938E98C00C23713</string>
+				<string>C9DA90F51938E98C00C23713</string>
+				<string>034342B9E09647C8A08A8867</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -260,7 +265,7 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E201926B7EB0038E78D</key>
+		<key>C9DA90D61938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -273,14 +278,14 @@ fi
 			<key>sourceTree</key>
 			<string>SDKROOT</string>
 		</dict>
-		<key>C9046E211926B7EB0038E78D</key>
+		<key>C9DA90D71938E98C00C23713</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9046E201926B7EB0038E78D</string>
+			<string>C9DA90D61938E98C00C23713</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C9046E221926B7EB0038E78D</key>
+		<key>C9DA90D81938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -293,14 +298,14 @@ fi
 			<key>sourceTree</key>
 			<string>SDKROOT</string>
 		</dict>
-		<key>C9046E231926B7EB0038E78D</key>
+		<key>C9DA90D91938E98C00C23713</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9046E221926B7EB0038E78D</string>
+			<string>C9DA90D81938E98C00C23713</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C9046E241926B7EB0038E78D</key>
+		<key>C9DA90DA1938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -313,40 +318,40 @@ fi
 			<key>sourceTree</key>
 			<string>SDKROOT</string>
 		</dict>
-		<key>C9046E251926B7EB0038E78D</key>
+		<key>C9DA90DB1938E98C00C23713</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9046E241926B7EB0038E78D</string>
+			<string>C9DA90DA1938E98C00C23713</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C9046E261926B7EB0038E78D</key>
+		<key>C9DA90DC1938E98C00C23713</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>C9046E2F1926B7EB0038E78D</string>
-				<string>C9046E301926B7EB0038E78D</string>
-				<string>C9046E321926B7EB0038E78D</string>
-				<string>C9046E351926B7EB0038E78D</string>
-				<string>C9046E361926B7EB0038E78D</string>
-				<string>C9046E381926B7EB0038E78D</string>
-				<string>C9046E271926B7EB0038E78D</string>
+				<string>C9DA90E51938E98C00C23713</string>
+				<string>C9DA90E61938E98C00C23713</string>
+				<string>C9DA90E81938E98C00C23713</string>
+				<string>C9DA90EB1938E98C00C23713</string>
+				<string>C9DA90EC1938E98C00C23713</string>
+				<string>C9DA90EE1938E98C00C23713</string>
+				<string>C9DA90DD1938E98C00C23713</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>path</key>
-			<string>PHYOAuth2SessionManager Example</string>
+			<string>PHYOAuth2SessionManager</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E271926B7EB0038E78D</key>
+		<key>C9DA90DD1938E98C00C23713</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>C9046E281926B7EB0038E78D</string>
-				<string>C9046E291926B7EB0038E78D</string>
-				<string>C9046E2C1926B7EB0038E78D</string>
-				<string>C9046E2E1926B7EB0038E78D</string>
+				<string>C9DA90DE1938E98C00C23713</string>
+				<string>C9DA90DF1938E98C00C23713</string>
+				<string>C9DA90E21938E98C00C23713</string>
+				<string>C9DA90E41938E98C00C23713</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -355,22 +360,22 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E281926B7EB0038E78D</key>
+		<key>C9DA90DE1938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>PHYOAuth2SessionManager Example-Info.plist</string>
+			<string>PHYOAuth2SessionManager-Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E291926B7EB0038E78D</key>
+		<key>C9DA90DF1938E98C00C23713</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>C9046E2A1926B7EB0038E78D</string>
+				<string>C9DA90E01938E98C00C23713</string>
 			</array>
 			<key>isa</key>
 			<string>PBXVariantGroup</string>
@@ -379,7 +384,7 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E2A1926B7EB0038E78D</key>
+		<key>C9DA90E01938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -392,14 +397,14 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E2B1926B7EB0038E78D</key>
+		<key>C9DA90E11938E98C00C23713</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9046E291926B7EB0038E78D</string>
+			<string>C9DA90DF1938E98C00C23713</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C9046E2C1926B7EB0038E78D</key>
+		<key>C9DA90E21938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -410,25 +415,25 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E2D1926B7EB0038E78D</key>
+		<key>C9DA90E31938E98C00C23713</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9046E2C1926B7EB0038E78D</string>
+			<string>C9DA90E21938E98C00C23713</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C9046E2E1926B7EB0038E78D</key>
+		<key>C9DA90E41938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>PHYOAuth2SessionManager Example-Prefix.pch</string>
+			<string>PHYOAuth2SessionManager-Prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E2F1926B7EB0038E78D</key>
+		<key>C9DA90E51938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -439,7 +444,7 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E301926B7EB0038E78D</key>
+		<key>C9DA90E61938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -450,18 +455,18 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E311926B7EB0038E78D</key>
+		<key>C9DA90E71938E98C00C23713</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9046E301926B7EB0038E78D</string>
+			<string>C9DA90E61938E98C00C23713</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C9046E321926B7EB0038E78D</key>
+		<key>C9DA90E81938E98C00C23713</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>C9046E331926B7EB0038E78D</string>
+				<string>C9DA90E91938E98C00C23713</string>
 			</array>
 			<key>isa</key>
 			<string>PBXVariantGroup</string>
@@ -470,7 +475,7 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E331926B7EB0038E78D</key>
+		<key>C9DA90E91938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -483,14 +488,14 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E341926B7EB0038E78D</key>
+		<key>C9DA90EA1938E98C00C23713</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9046E321926B7EB0038E78D</string>
+			<string>C9DA90E81938E98C00C23713</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C9046E351926B7EB0038E78D</key>
+		<key>C9DA90EB1938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -501,7 +506,7 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E361926B7EB0038E78D</key>
+		<key>C9DA90EC1938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -512,14 +517,14 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E371926B7EB0038E78D</key>
+		<key>C9DA90ED1938E98C00C23713</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9046E361926B7EB0038E78D</string>
+			<string>C9DA90EC1938E98C00C23713</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C9046E381926B7EB0038E78D</key>
+		<key>C9DA90EE1938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -530,82 +535,82 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E391926B7EB0038E78D</key>
+		<key>C9DA90EF1938E98C00C23713</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9046E381926B7EB0038E78D</string>
+			<string>C9DA90EE1938E98C00C23713</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C9046E3A1926B7EB0038E78D</key>
+		<key>C9DA90F01938E98C00C23713</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>C9046E4C1926B7EB0038E78D</string>
+				<string>C9DA91021938E98C00C23713</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>C9046E3B1926B7EB0038E78D</key>
+		<key>C9DA90F11938E98C00C23713</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>C9046E401926B7EB0038E78D</string>
-				<string>C9046E421926B7EB0038E78D</string>
-				<string>C9046E411926B7EB0038E78D</string>
+				<string>C9DA90F61938E98C00C23713</string>
+				<string>C9DA90F81938E98C00C23713</string>
+				<string>C9DA90F71938E98C00C23713</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>C9046E3C1926B7EB0038E78D</key>
+		<key>C9DA90F21938E98C00C23713</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>C9046E4A1926B7EB0038E78D</string>
+				<string>C9DA91001938E98C00C23713</string>
 			</array>
 			<key>isa</key>
 			<string>PBXResourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>C9046E3D1926B7EB0038E78D</key>
+		<key>C9DA90F31938E98C00C23713</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>C9046E521926B7EB0038E78D</string>
+			<string>C9DA91081938E98C00C23713</string>
 			<key>buildPhases</key>
 			<array>
-				<string>C9046E3A1926B7EB0038E78D</string>
-				<string>C9046E3B1926B7EB0038E78D</string>
-				<string>C9046E3C1926B7EB0038E78D</string>
+				<string>C9DA90F01938E98C00C23713</string>
+				<string>C9DA90F11938E98C00C23713</string>
+				<string>C9DA90F21938E98C00C23713</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
 			<key>dependencies</key>
 			<array>
-				<string>C9046E441926B7EB0038E78D</string>
+				<string>C9DA90FA1938E98C00C23713</string>
 			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>PHYOAuth2SessionManager ExampleTests</string>
+			<string>PHYOAuth2SessionManagerTests</string>
 			<key>productName</key>
-			<string>PHYOAuth2SessionManager ExampleTests</string>
+			<string>PHYOAuth2SessionManagerTests</string>
 			<key>productReference</key>
-			<string>C9046E3E1926B7EB0038E78D</string>
+			<string>C9DA90F41938E98C00C23713</string>
 			<key>productType</key>
 			<string>com.apple.product-type.bundle.unit-test</string>
 		</dict>
-		<key>C9046E3E1926B7EB0038E78D</key>
+		<key>C9DA90F41938E98C00C23713</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>wrapper.cfbundle</string>
@@ -614,11 +619,11 @@ fi
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>path</key>
-			<string>PHYOAuth2SessionManager ExampleTests.xctest</string>
+			<string>PHYOAuth2SessionManagerTests.xctest</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>C9046E3F1926B7EB0038E78D</key>
+		<key>C9DA90F51938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -631,69 +636,69 @@ fi
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>C9046E401926B7EB0038E78D</key>
+		<key>C9DA90F61938E98C00C23713</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9046E3F1926B7EB0038E78D</string>
+			<string>C9DA90F51938E98C00C23713</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C9046E411926B7EB0038E78D</key>
+		<key>C9DA90F71938E98C00C23713</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9046E201926B7EB0038E78D</string>
+			<string>C9DA90D61938E98C00C23713</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C9046E421926B7EB0038E78D</key>
+		<key>C9DA90F81938E98C00C23713</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9046E241926B7EB0038E78D</string>
+			<string>C9DA90DA1938E98C00C23713</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C9046E431926B7EB0038E78D</key>
+		<key>C9DA90F91938E98C00C23713</key>
 		<dict>
 			<key>containerPortal</key>
-			<string>C9046E151926B7EB0038E78D</string>
+			<string>C9DA90CB1938E98C00C23713</string>
 			<key>isa</key>
 			<string>PBXContainerItemProxy</string>
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>C9046E1C1926B7EB0038E78D</string>
+			<string>C9DA90D21938E98C00C23713</string>
 			<key>remoteInfo</key>
-			<string>PHYOAuth2SessionManager Example</string>
+			<string>PHYOAuth2SessionManager</string>
 		</dict>
-		<key>C9046E441926B7EB0038E78D</key>
+		<key>C9DA90FA1938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXTargetDependency</string>
 			<key>target</key>
-			<string>C9046E1C1926B7EB0038E78D</string>
+			<string>C9DA90D21938E98C00C23713</string>
 			<key>targetProxy</key>
-			<string>C9046E431926B7EB0038E78D</string>
+			<string>C9DA90F91938E98C00C23713</string>
 		</dict>
-		<key>C9046E451926B7EB0038E78D</key>
+		<key>C9DA90FB1938E98C00C23713</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>C9046E4B1926B7EB0038E78D</string>
-				<string>C9046E461926B7EB0038E78D</string>
+				<string>C9DA91011938E98C00C23713</string>
+				<string>C9DA90FC1938E98C00C23713</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>path</key>
-			<string>PHYOAuth2SessionManager ExampleTests</string>
+			<string>PHYOAuth2SessionManagerTests</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E461926B7EB0038E78D</key>
+		<key>C9DA90FC1938E98C00C23713</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>C9046E471926B7EB0038E78D</string>
-				<string>C9046E481926B7EB0038E78D</string>
+				<string>C9DA90FD1938E98C00C23713</string>
+				<string>C9DA90FE1938E98C00C23713</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -702,22 +707,22 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E471926B7EB0038E78D</key>
+		<key>C9DA90FD1938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>PHYOAuth2SessionManager ExampleTests-Info.plist</string>
+			<string>PHYOAuth2SessionManagerTests-Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E481926B7EB0038E78D</key>
+		<key>C9DA90FE1938E98C00C23713</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>C9046E491926B7EB0038E78D</string>
+				<string>C9DA90FF1938E98C00C23713</string>
 			</array>
 			<key>isa</key>
 			<string>PBXVariantGroup</string>
@@ -726,7 +731,7 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E491926B7EB0038E78D</key>
+		<key>C9DA90FF1938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -739,32 +744,32 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E4A1926B7EB0038E78D</key>
+		<key>C9DA91001938E98C00C23713</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9046E481926B7EB0038E78D</string>
+			<string>C9DA90FE1938E98C00C23713</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C9046E4B1926B7EB0038E78D</key>
+		<key>C9DA91011938E98C00C23713</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>PHYOAuth2SessionManager_ExampleTests.m</string>
+			<string>PHYOAuth2SessionManagerTests.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9046E4C1926B7EB0038E78D</key>
+		<key>C9DA91021938E98C00C23713</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9046E4B1926B7EB0038E78D</string>
+			<string>C9DA91011938E98C00C23713</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C9046E4D1926B7EB0038E78D</key>
+		<key>C9DA91031938E98C00C23713</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -835,7 +840,7 @@ fi
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>C9046E4E1926B7EB0038E78D</key>
+		<key>C9DA91041938E98C00C23713</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -897,22 +902,22 @@ fi
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>C9046E4F1926B7EB0038E78D</key>
+		<key>C9DA91051938E98C00C23713</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>C9046E501926B7EB0038E78D</string>
-				<string>C9046E511926B7EB0038E78D</string>
+				<string>C9DA91061938E98C00C23713</string>
+				<string>C9DA91071938E98C00C23713</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>C9046E501926B7EB0038E78D</key>
+		<key>C9DA91061938E98C00C23713</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>F1E98326C46C493CA4B7794C</string>
+			<string>4566A358118A4A36AFC90EB8</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
@@ -922,9 +927,9 @@ fi
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>PHYOAuth2SessionManager Example/PHYOAuth2SessionManager Example-Prefix.pch</string>
+				<string>PHYOAuth2SessionManager/PHYOAuth2SessionManager-Prefix.pch</string>
 				<key>INFOPLIST_FILE</key>
-				<string>PHYOAuth2SessionManager Example/PHYOAuth2SessionManager Example-Info.plist</string>
+				<string>PHYOAuth2SessionManager/PHYOAuth2SessionManager-Info.plist</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 				<key>WRAPPER_EXTENSION</key>
@@ -935,10 +940,10 @@ fi
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>C9046E511926B7EB0038E78D</key>
+		<key>C9DA91071938E98C00C23713</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>F1E98326C46C493CA4B7794C</string>
+			<string>4566A358118A4A36AFC90EB8</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
@@ -948,9 +953,9 @@ fi
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>PHYOAuth2SessionManager Example/PHYOAuth2SessionManager Example-Prefix.pch</string>
+				<string>PHYOAuth2SessionManager/PHYOAuth2SessionManager-Prefix.pch</string>
 				<key>INFOPLIST_FILE</key>
-				<string>PHYOAuth2SessionManager Example/PHYOAuth2SessionManager Example-Info.plist</string>
+				<string>PHYOAuth2SessionManager/PHYOAuth2SessionManager-Info.plist</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 				<key>WRAPPER_EXTENSION</key>
@@ -961,24 +966,24 @@ fi
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>C9046E521926B7EB0038E78D</key>
+		<key>C9DA91081938E98C00C23713</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>C9046E531926B7EB0038E78D</string>
-				<string>C9046E541926B7EB0038E78D</string>
+				<string>C9DA91091938E98C00C23713</string>
+				<string>C9DA910A1938E98C00C23713</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>C9046E531926B7EB0038E78D</key>
+		<key>C9DA91091938E98C00C23713</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
 				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/PHYOAuth2SessionManager Example.app/PHYOAuth2SessionManager Example</string>
+				<string>$(BUILT_PRODUCTS_DIR)/PHYOAuth2SessionManager.app/PHYOAuth2SessionManager</string>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
 				<array>
 					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
@@ -988,14 +993,14 @@ fi
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>PHYOAuth2SessionManager Example/PHYOAuth2SessionManager Example-Prefix.pch</string>
+				<string>PHYOAuth2SessionManager/PHYOAuth2SessionManager-Prefix.pch</string>
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
 				<array>
 					<string>DEBUG=1</string>
 					<string>$(inherited)</string>
 				</array>
 				<key>INFOPLIST_FILE</key>
-				<string>PHYOAuth2SessionManager ExampleTests/PHYOAuth2SessionManager ExampleTests-Info.plist</string>
+				<string>PHYOAuth2SessionManagerTests/PHYOAuth2SessionManagerTests-Info.plist</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 				<key>TEST_HOST</key>
@@ -1008,12 +1013,12 @@ fi
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>C9046E541926B7EB0038E78D</key>
+		<key>C9DA910A1938E98C00C23713</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
 				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/PHYOAuth2SessionManager Example.app/PHYOAuth2SessionManager Example</string>
+				<string>$(BUILT_PRODUCTS_DIR)/PHYOAuth2SessionManager.app/PHYOAuth2SessionManager</string>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
 				<array>
 					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
@@ -1023,9 +1028,9 @@ fi
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>PHYOAuth2SessionManager Example/PHYOAuth2SessionManager Example-Prefix.pch</string>
+				<string>PHYOAuth2SessionManager/PHYOAuth2SessionManager-Prefix.pch</string>
 				<key>INFOPLIST_FILE</key>
-				<string>PHYOAuth2SessionManager ExampleTests/PHYOAuth2SessionManager ExampleTests-Info.plist</string>
+				<string>PHYOAuth2SessionManagerTests/PHYOAuth2SessionManagerTests-Info.plist</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 				<key>TEST_HOST</key>
@@ -1038,43 +1043,38 @@ fi
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>D1027C6322F644C38B4373E6</key>
+		<key>F672BFFFAB15478B8863B1DA</key>
 		<dict>
-			<key>fileRef</key>
-			<string>ECC2A73B4CB44A919680B246</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ECC2A73B4CB44A919680B246</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-PHYOAuth2SessionManager Example.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>F1E98326C46C493CA4B7794C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>PBXShellScriptBuildPhase</string>
 			<key>name</key>
-			<string>Pods-PHYOAuth2SessionManager Example.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-PHYOAuth2SessionManager Example.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>C9046E151926B7EB0038E78D</string>
+	<string>C9DA90CB1938E98C00C23713</string>
 </dict>
 </plist>

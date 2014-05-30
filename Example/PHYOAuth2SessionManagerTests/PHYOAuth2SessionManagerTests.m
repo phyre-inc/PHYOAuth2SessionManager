@@ -1,18 +1,18 @@
 //
-//  PHYOAuth2SessionManager_ExampleTests.m
-//  PHYOAuth2SessionManager ExampleTests
+//  PHYOAuth2SessionManagerTests.m
+//  PHYOAuth2SessionManagerTests
 //
-//  Created by Matt Ricketson on 5/16/14.
+//  Created by Matt Ricketson on 5/30/14.
 //  Copyright (c) 2014 Phyre Inc. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface PHYOAuth2SessionManager_ExampleTests : XCTestCase
+@interface PHYOAuth2SessionManagerTests : XCTestCase
 
 @end
 
-@implementation PHYOAuth2SessionManager_ExampleTests
+@implementation PHYOAuth2SessionManagerTests
 
 - (void)setUp
 {

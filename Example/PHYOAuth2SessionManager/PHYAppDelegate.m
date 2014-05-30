@@ -1,8 +1,8 @@
 //
 //  PHYAppDelegate.m
-//  PHYOAuth2SessionManager Example
+//  PHYOAuth2SessionManager
 //
-//  Created by Matt Ricketson on 5/16/14.
+//  Created by Matt Ricketson on 5/30/14.
 //  Copyright (c) 2014 Phyre Inc. All rights reserved.
 //
 
