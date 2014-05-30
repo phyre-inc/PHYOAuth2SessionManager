@@ -1,6 +1,6 @@
 # PHYOAuth2SessionManager
 
-An [AFHTTPSessionManager](http://afnetworking.com) subclass for authenticating via OAuth 2.0. Adapted from [AFOauth2Client](https://github.com/AFNetworking/AFOAuth2Client).
+An [AFHTTPSessionManager](http://afnetworking.com) subclass for authenticating via OAuth 2. Adapted from [AFOAuth2Client](https://github.com/AFNetworking/AFOAuth2Client).
 
 ## Installation
 
