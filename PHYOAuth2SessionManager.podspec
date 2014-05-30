@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = "http://phyreup.com"
   s.license          = 'MIT'
   s.author           = { "Matt Ricketson" => "matt@phyreup.com" }
-  s.source           = { :git => "git@github.com:phyre-inc/PHYOAuth2SessionManager.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/phyre-inc/PHYOAuth2SessionManager.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/phyreup'
 
   s.platform     = :ios, '7.0'
