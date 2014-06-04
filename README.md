@@ -9,6 +9,10 @@ it simply add the following line to your Podfile:
 
     pod "PHYOAuth2SessionManager"
 
+## Documentation
+
+[Documentation](http://cocoadocs.org/docsets/PHYOAuth2SessionManager/0.1.0/) provided via [CocoaDocs](http://cocoadocs.org).
+
 ## Author
 
 Matt Ricketson, matt@phyreup.com
