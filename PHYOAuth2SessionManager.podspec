@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PHYOAuth2SessionManager"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "An AFHTTPSessionManager subclass for authenticating via OAuth 2.0"
   s.homepage         = "http://phyreup.com"
   s.license          = 'MIT'
