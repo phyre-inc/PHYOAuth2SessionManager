@@ -67,27 +67,6 @@ static NSMutableDictionary * AFKeychainQueryDictionaryWithIdentifier(NSString *i
 }
 
 
-#pragma mark - Setting the Authentication Header
-
-- (void)setAuthorizationHeaderWithToken:(NSString *)token
-{
-    [self setAuthorizationHeaderWithToken:token ofType:@"Bearer"]; /// Use the "Bearer" type as an arbitrary default
-}
-
-- (void)setAuthorizationHeaderWithCredential:(PHYOAuthCredential *)credential
-{
-    [self setAuthorizationHeaderWithToken:credential.accessToken ofType:credential.tokenType];
-}
-
-- (void)setAuthorizationHeaderWithToken:(NSString *)token ofType:(NSString *)type
-{
-    /// See http://tools.ietf.org/html/rfc6749#section-7.1
-    if ([[type lowercaseString] isEqualToString:@"bearer"]) {
-        [self.requestSerializer setValue:[NSString stringWithFormat:@"Bearer %@", token] forHTTPHeaderField:@"Authorization"];
-    }
-}
-
-
 #pragma mark - Authentication
 
 - (NSURLSessionDataTask *)authenticateUsingOAuthWithURLString:(NSString *)URLString
@@ -192,7 +171,7 @@ static NSMutableDictionary * AFKeychainQueryDictionaryWithIdentifier(NSString *i
         
         [credential setRefreshToken:refreshToken expiration:expireDate];
         
-        [self setAuthorizationHeaderWithCredential:credential];
+        [self.requestSerializer phy_setAuthorizationHeaderFieldWithOAuthCredential:credential];
         
         if (success) {
             success(task, credential);
@@ -355,6 +334,24 @@ static NSMutableDictionary * AFKeychainQueryDictionaryWithIdentifier(NSString *i
     [encoder encodeObject:self.tokenType forKey:@"tokenType"];
     [encoder encodeObject:self.refreshToken forKey:@"refreshToken"];
     [encoder encodeObject:self.expiration forKey:@"expiration"];
+}
+
+@end
+
+
+
+#pragma mark - AFHTTPRequestSerializer (PHYOAuth)
+
+@implementation AFHTTPRequestSerializer (PHYOAuth)
+
+#pragma mark - Authorization
+
+- (void)phy_setAuthorizationHeaderFieldWithOAuthCredential:(PHYOAuthCredential *)credential
+{
+    /// OAuth 2 "Access Token Types": http://tools.ietf.org/html/rfc6749#section-7.1
+    if ([[credential.tokenType lowercaseString] isEqualToString:@"bearer"]) {
+        [self setValue:[NSString stringWithFormat:@"Bearer %@", credential.accessToken] forHTTPHeaderField:@"Authorization"];
+    }
 }
 
 @end

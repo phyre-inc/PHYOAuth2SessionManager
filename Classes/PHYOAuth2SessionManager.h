@@ -65,12 +65,6 @@
              clientID:(NSString *)clientID
                secret:(NSString *)secret;
 
-/**
- Sets the "Authorization" HTTP header set in request objects made by the HTTP client to a basic authentication value with Base64-encoded username and password. This overwrites any existing value for this header.
- 
- @param credential The OAuth credential
- */
-- (void)setAuthorizationHeaderWithCredential:(PHYOAuthCredential *)credential;
 
 ///---------------------
 /// @name Authenticating
@@ -262,6 +256,31 @@
 + (BOOL)deleteCredentialWithIdentifier:(NSString *)identifier;
 
 @end
+
+
+#pragma mark -
+
+/**
+ A category on `AFHTTPRequestSerializer` that enables configuration of the HTTP Authorization header based on an OAuth credential.
+ */
+@interface AFHTTPRequestSerializer (PHYOAuth)
+
+///--------------------
+/// @name Authorization
+///--------------------
+
+/**
+ Sets the HTTP Authorization header according to the specified OAuth credential.
+ 
+ @discussion
+ Follows the format specified in "Access Token Types": http://tools.ietf.org/html/rfc6749#section-7.1
+ 
+ @param credential An OAuth credential.
+ */
+- (void)phy_setAuthorizationHeaderFieldWithOAuthCredential:(PHYOAuthCredential *)credential;
+
+@end
+
 
 ///----------------
 /// @name Constants
